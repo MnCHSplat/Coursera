@@ -1,0 +1,80 @@
+/* Mod2assignment css file */
+
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 1.75em;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    border: 1px solid black;
+    font-size: 1.25em;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    background-color: lightsalmon;
+    float: right;
+    text-align: center;
+    margin: 0px;
+}
+
+p {
+    border: 1px solid black;
+    color: black;
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 27px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+        /* Large Devices */
+        @media (min-width: 992px) {
+            .col-1, .col-2, .col-3 {
+                float: left;
+            }
+            .col-1 {
+                width: 33.33%;
+            }
+            .col-2 {
+                width: 33.33%;
+            }
+            .col-3 {
+                width: 33.33%;
+            }
+        }
+
+        /* Medium Devices */
+        @media (min-width: 768px) and (max-width: 991px) {
+            .col-1, .col-2, .col-3 {
+                float: left;
+            }
+            .col-1 {
+                width: 50%;
+            }
+            .col-2 {
+                width: 50%;
+            }
+            .col-3 {
+                width: 100%;
+            }
+        }
+
+        .col-1 {
+            background-color: violet;
+        }
+
+        .col-2 {
+            background-color: seagreen;
+        }
+
+        .col-3 {
+            background-color: lawngreen;
+        }
