@@ -1,12 +1,18 @@
-/* Mod2assignment css file */
+/* Mod2Answer css file */
 
 * {
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.row {
+    margin: 10px;
+    /* background-color: green;
+    border: 1px black solid; */
+}
+
 h1 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 1.75em;
     color: black;
     text-align: center;
@@ -18,10 +24,11 @@ h2 {
     color: black;
     font-weight: bold;
     width: 100px;
-    background-color: lightsalmon;
     float: right;
     text-align: center;
-    margin: 0px;
+    margin-right: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p {
@@ -29,10 +36,13 @@ p {
     color: black;
     font-size: 1em;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 8px;
+    margin-right: 8px;
     padding-top: 27px;
+    padding-bottom: 5px;
+    padding-right: 2px;
     padding-left: 2px;
-    padding-bottom: 2px;
+    background-color: hotpink;
 }
 
         /* Large Devices */
@@ -67,14 +77,14 @@ p {
             }
         }
 
-        .col-1 {
+        #color1 {
             background-color: violet;
         }
 
-        .col-2 {
+        #color2 {
             background-color: seagreen;
         }
 
-        .col-3 {
+        #color3 {
             background-color: lawngreen;
         }
