@@ -54,16 +54,7 @@ h2 {
 #formatsection {
     background-color: lightskyblue;
     padding: 15px;
+    margin: 0;
 }
-/* @media (min-width: 768) {
-    #navbar-menu {
-        display: none !important;
-    }
-}
-@media (max-width: 425) {
-    #navbar-menu {
-        display: block !important;
-    }
-}
-*/
+
 /* End Body */
