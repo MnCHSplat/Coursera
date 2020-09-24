@@ -1,0 +1,69 @@
+/* Mod3Assignment css file */
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Start Navigation Bar */
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: hotpink;
+}
+
+.navbar-toggler {
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-right: 16px;
+}
+
+.navbar-toggler:hover, navbar-toggler:focus {
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    padding: 5px;
+}
+
+.nav-item {
+    text-align: center;
+    background-color: lightcoral;
+    padding: 0;
+}
+/* End Navigation Bar */
+
+/* Start Page Heading */
+h1 {
+    float: left;
+    color: black;
+}
+
+
+/* End Page Heading */
+
+/* Start Body */
+
+h2 {
+    padding: 5px;
+}
+
+#formatsection {
+    background-color: lightskyblue;
+    padding: 15px;
+}
+/* @media (min-width: 768) {
+    #navbar-menu {
+        display: none !important;
+    }
+}
+@media (max-width: 425) {
+    #navbar-menu {
+        display: block !important;
+    }
+}
+*/
+/* End Body */
